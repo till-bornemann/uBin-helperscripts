@@ -57,7 +57,7 @@ $ gem install --local nu-2.0.1.gem
 
 Now all dependencies should be installed.
 
-Databases. Databases for single copy genes are supplied in the /bin/SCG/ directory and this directory is assumed to be in the same folder as the wrapper script. The FunTaxDB (Uniref100 database along with the taxonomic information for each gene) can be downloaded from the link https://uni-duisburg-essen.sciebo.de/s/pi4cuYwyZ3KJVMl and must also be placed into the /bin/SCG/ directory. The path of the Uniref100 database can be modified but should be adjusted at the start of the wrapper script. The fasta files needs to be formatted once:
+Databases. Databases for single copy genes are supplied in the /bin/SCG/ directory and this directory is assumed to be in the same folder as the wrapper script. The FunTaxDB (Uniref100 database along with the taxonomic information for each gene) can be downloaded from the link https://zenodo.org/record/7180192#.Y5rXJLLMJr0 and must also be placed into the /bin/SCG/ directory. The path of the Uniref100 database can be modified but should be adjusted at the start of the wrapper script. The fasta files needs to be formatted once:
 
 $ diamond makedb --in FunTaxDBv1.1.fasta -d FunTaxDBv1.1
 
